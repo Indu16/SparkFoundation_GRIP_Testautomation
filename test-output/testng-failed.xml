@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="AboutUs(failed)">
+    <classes>
+      <class name="org.sparksfoundation.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.sparksfoundation.HomePage -->
+      <class name="org.sparksfoundation.JoinUsSubmitDetails">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.sparksfoundation.JoinUsSubmitDetails -->
+      <class name="org.sparksfoundation.CheckContentOnContactUsPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.sparksfoundation.CheckContentOnContactUsPage -->
+      <class name="org.sparksfoundation.AboutVisionMissionAndValues">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="NavigateToAboutUs"/>
+        </methods>
+      </class> <!-- org.sparksfoundation.AboutVisionMissionAndValues -->
+    </classes>
+  </test> <!-- AboutUs(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="HomePage">
+    <classes>
+      <class name="org.sparksfoundation.HomePage"/>
+    </classes>
+    </test>
+    <test name ="AboutUs">
+        <classes>
+      <class name="org.sparksfoundation.AboutVisionMissionAndValues"/>
+    </classes>
+  </test>
+  <test name ="CheckContent">
+        <classes>
+      <class name="org.sparksfoundation.CheckContentOnContactUsPage"/>
+    </classes>
+  </test>
+  <test name ="SubmitForm">
+        <classes>
+      <class name="org.sparksfoundation.JoinUsSubmitDetails"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

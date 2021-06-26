@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-26T16:35:55Z" name="Suite" finished-at="2021-06-26T16:39:15Z" duration-ms="199867">
+    <groups>
+    </groups>
+    <test started-at="2021-06-26T16:35:55Z" name="HomePage" finished-at="2021-06-26T16:37:00Z" duration-ms="65195">
+      <class name="org.sparksfoundation.HomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.sparksfoundation.HomePage@32c726ee]" started-at="2021-06-26T18:35:55Z" name="setup" finished-at="2021-06-26T18:36:30Z" duration-ms="35320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckTitle()[pri:0, instance:org.sparksfoundation.HomePage@32c726ee]" started-at="2021-06-26T18:36:31Z" name="CheckTitle" finished-at="2021-06-26T18:36:48Z" duration-ms="17398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method signature="VerifyLogoPresent()[pri:0, instance:org.sparksfoundation.HomePage@32c726ee]" started-at="2021-06-26T18:36:48Z" name="VerifyLogoPresent" finished-at="2021-06-26T18:36:48Z" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogoPresent -->
+        <test-method signature="TestNavigation()[pri:0, instance:org.sparksfoundation.HomePage@32c726ee]" started-at="2021-06-26T18:36:48Z" name="TestNavigation" finished-at="2021-06-26T18:36:57Z" duration-ms="8707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.sparksfoundation.HomePage@32c726ee]" started-at="2021-06-26T18:36:57Z" name="teardown" finished-at="2021-06-26T18:37:00Z" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.sparksfoundation.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2021-06-26T16:37:02Z" name="AboutUs" finished-at="2021-06-26T16:38:01Z" duration-ms="59335">
+      <class name="org.sparksfoundation.AboutVisionMissionAndValues">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.sparksfoundation.AboutVisionMissionAndValues@34158c08]" started-at="2021-06-26T18:37:02Z" name="setup" finished-at="2021-06-26T18:37:27Z" duration-ms="24576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigateToAboutUs()[pri:0, instance:org.sparksfoundation.AboutVisionMissionAndValues@34158c08]" started-at="2021-06-26T18:37:27Z" name="NavigateToAboutUs" finished-at="2021-06-26T18:37:59Z" duration-ms="32292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAboutUs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.sparksfoundation.AboutVisionMissionAndValues@34158c08]" started-at="2021-06-26T18:37:59Z" name="teardown" finished-at="2021-06-26T18:38:01Z" duration-ms="2462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.sparksfoundation.AboutVisionMissionAndValues -->
+    </test> <!-- AboutUs -->
+    <test started-at="2021-06-26T16:38:02Z" name="CheckContent" finished-at="2021-06-26T16:38:36Z" duration-ms="34027">
+      <class name="org.sparksfoundation.CheckContentOnContactUsPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.sparksfoundation.CheckContentOnContactUsPage@65a15628]" started-at="2021-06-26T18:38:02Z" name="setup" finished-at="2021-06-26T18:38:12Z" duration-ms="10665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigateToContactUs()[pri:0, instance:org.sparksfoundation.CheckContentOnContactUsPage@65a15628]" started-at="2021-06-26T18:38:12Z" name="NavigateToContactUs" finished-at="2021-06-26T18:38:32Z" duration-ms="20234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToContactUs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.sparksfoundation.CheckContentOnContactUsPage@65a15628]" started-at="2021-06-26T18:38:32Z" name="teardown" finished-at="2021-06-26T18:38:36Z" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.sparksfoundation.CheckContentOnContactUsPage -->
+    </test> <!-- CheckContent -->
+    <test started-at="2021-06-26T16:38:36Z" name="SubmitForm" finished-at="2021-06-26T16:39:15Z" duration-ms="39208">
+      <class name="org.sparksfoundation.JoinUsSubmitDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.sparksfoundation.JoinUsSubmitDetails@72437d8d]" started-at="2021-06-26T18:38:36Z" name="setup" finished-at="2021-06-26T18:38:43Z" duration-ms="6985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigateToJoinUs()[pri:0, instance:org.sparksfoundation.JoinUsSubmitDetails@72437d8d]" started-at="2021-06-26T18:38:43Z" name="NavigateToJoinUs" finished-at="2021-06-26T18:39:11Z" duration-ms="28803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToJoinUs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.sparksfoundation.JoinUsSubmitDetails@72437d8d]" started-at="2021-06-26T18:39:12Z" name="teardown" finished-at="2021-06-26T18:39:15Z" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.sparksfoundation.JoinUsSubmitDetails -->
+    </test> <!-- SubmitForm -->
+  </suite> <!-- Suite -->
+</testng-results>
